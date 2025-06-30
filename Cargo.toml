@@ -1,9 +1,10 @@
 [package]
-name = "Keybearer"
-version = "0.1.0"
+name = "keybearer"
+version = "0.0.1"
 edition = "2021"
 
 [dependencies]
 axum = { version = "0.8.4", features = ["tokio"] }
+sqlx = { version = "0.8.6", features = ["runtime-tokio"] }
 tokio = { version = "1.45.1", features = ["full"] }
 uuid = { version = "1.17.0", features = ["v7"] }

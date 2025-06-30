@@ -1,4 +1,4 @@
-use Keybearer::Routing;
+use keybearer::Routing;
 
 #[tokio::main]
 async fn main() {
